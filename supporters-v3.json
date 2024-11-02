@@ -1,0 +1,366 @@
+{
+  "version": 2,
+  "supporters": {
+  "Legacy Projects [LP]": {
+      "member": false,
+      "uuid": null,
+      "color": "#1EA4EB",
+      "description": "We are a group of people who make projects focusing on Minecraft, Old Versions, and the Legacy Console Editions.",
+      "twitter": null,
+      "youtube": "https://www.youtube.com/@MCLegacyProjects",
+      "twitch": null,
+      "links": [
+        "https://github.com/MC-Legacy-Projects/",
+        "https://modrinth.com/organization/legacy-projects"
+      ]
+    },
+  "[LP] Permdog99": {
+      "member": false,
+      "uuid": "e93a837733c646f3a77428df6bc16ede",
+      "color": "#F980FA",
+      "description": ":3",
+      "twitter": "https://x.com/Permdog99",
+      "youtube": "https://www.youtube.com/@permdog99",
+      "twitch": null,
+      "links": [
+        "https://github.com/Permdog99/"
+      ]
+    },
+    "[LP] AgariLMAO": {
+      "member": false,
+      "uuid": "6256057953dd4072ab973b0ee0cd0f4b",
+      "color": "#FFAA00",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[LP] MitsuIsSleepy": {
+      "member": false,
+      "uuid": "10d1a7f9fe8247de82d8d0fbfa9c934a",
+      "color": "#FFAA00",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[LP] Cixon": {
+      "member": false,
+      "uuid": "d1127253f5064277ade7213df86eac10",
+      "color": "#FFAA00",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[LP] omoso": {
+      "member": false,
+      "uuid": "a15634007fc54c2eacec50fbed0b6f24",
+      "color": "#FFAA00",
+      "description": Creator of Re-Console,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": [
+        "https://modrinth.com/user/bowen"
+      ]
+    },
+    "[Original Creator] Adrenix": {
+      "member": false,
+      "uuid": "807f247872ff4e40a948e30c84555716",
+      "color": "#FF0000",
+      "description": "\u00a77\u00a7oIt's ok to embrace tradition and reject modernity.\u00a7r",
+      "twitter": null,
+      "youtube": "https://www.youtube.com/@adrenix-minecraft",
+      "twitch": null,
+      "links": [
+        "https://github.com/Adrenix/Nostalgic-Tweaks"
+      ]
+    },
+    "[OG] PoeticRainbow": {
+      "member": false,
+      "uuid": "7549e31d28ca466886b285df57aa3f87",
+      "color": "#FFFF00",
+      "description": "Creator of the\u00a7e Golden Days\u00a7r resource pack!",
+      "twitter": null,
+      "youtube": "https://www.youtube.com/@PoeticRainbow",
+      "twitch": "https://www.twitch.tv/thepoeticrainbow",
+      "links": []
+    },
+    "[OG] SalC1": {
+      "member": false,
+      "uuid": "b751b9ef2b6f46789908718bf93d7089",
+      "color": "#FFDA20",
+      "description": null,
+      "twitter": "https://twitter.com/RealSalC1",
+      "youtube": "https://www.youtube.com/@SalC1",
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Captain_3": {
+      "member": true,
+      "uuid": "9ef05a6d51974e33897e8c46b365b2d1",
+      "color": "#F47300",
+      "description": null,
+      "twitter": "https://twitter.com/NSS_Captain",
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Dahomey": {
+      "member": false,
+      "uuid": "7deb4e29e30e4b6081b673ca3bd921e2",
+      "color": "#9B59AA",
+      "description": null,
+      "twitter": null,
+      "youtube": "https://www.youtube.com/@dahomeyian",
+      "twitch": null,
+      "links": []
+    },
+    "[OG] texticks": {
+      "member": false,
+      "uuid": null,
+      "color": "#9B59AA",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] CassyetteTape": {
+      "member": true,
+      "uuid": null,
+      "color": "#3EB489",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Lewgus": {
+      "member": true,
+      "uuid": null,
+      "color": "#00FF48",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] spoon": {
+      "member": false,
+      "uuid": null,
+      "color": "#FFFFFF",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] JimmyHarmel": {
+      "member": false,
+      "uuid": null,
+      "color": "#9B59AA",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Epic Acrylic": {
+      "member": false,
+      "uuid": null,
+      "color": "#00DDFF",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] aeroburger": {
+      "member": false,
+      "uuid": null,
+      "color": "#9B59AA",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] eithli": {
+      "member": false,
+      "uuid": null,
+      "color": "#9B59AA",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] vund": {
+      "member": false,
+      "uuid": null,
+      "color": "#FFC0CB",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] swunglepord862": {
+      "member": false,
+      "uuid": "93f9061d756844cbba9f103560c6b006",
+      "color": "#19FF0C",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": [
+        "https://www.planetminecraft.com/member/swunglepord862/"
+      ]
+    },
+    "[OG] Eamon": {
+      "member": false,
+      "uuid": null,
+      "color": "#9B59AA",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Jimbo": {
+      "member": false,
+      "uuid": "8656dc1060504a17b29e88c4babbc54c",
+      "color": "#40E0C6",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Reyitos": {
+      "member": false,
+      "uuid": null,
+      "color": "#505C81",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] ReachTea": {
+      "member": false,
+      "uuid": null,
+      "color": "#FF025A",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Caker": {
+      "member": false,
+      "uuid": null,
+      "color": "#900C3F",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] StereoMadnesss": {
+      "member": false,
+      "uuid": null,
+      "color": "#F47FFF",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Skull": {
+      "member": false,
+      "uuid": null,
+      "color": "#1947FF",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] helpimnotdrowning": {
+      "member": false,
+      "uuid": null,
+      "color": "#9B59AA",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Ozynt": {
+      "member": false,
+      "uuid": null,
+      "color": "#F47FFF",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] NickMarkick": {
+      "member": false,
+      "uuid": null,
+      "color": "#FFA500",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] chunkymilk": {
+      "member": false,
+      "uuid": null,
+      "color": "#87AB08",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Triafaye": {
+      "member": false,
+      "uuid": null,
+      "color": "#9B59AA",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] Point Orbit": {
+      "member": false,
+      "uuid": "8ad2961b5c954e8ba3cdada8fe5e9ed6",
+      "color": "#FFFF00",
+      "description": "\u00a77\u00a7oYou only need to get lucky once.\u00a7r",
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    },
+    "[OG] AtlasInuu": {
+      "member": false,
+      "uuid": null,
+      "color": "#9B59AA",
+      "description": null,
+      "twitter": null,
+      "youtube": null,
+      "twitch": null,
+      "links": []
+    }
+  }
+}
