@@ -44,6 +44,7 @@ processResources {
     filesMatching("META-INF/neoforge.mods.toml") {
         expand "version": project.version,
                 "mod_author": rootProject.mod_author,
+                "mod_old_author": rootProject.mod_old_author,
                 "mod_id": rootProject.mod_id,
                 "mod_name": rootProject.mod_name,
                 "mod_source": rootProject.mod_source,

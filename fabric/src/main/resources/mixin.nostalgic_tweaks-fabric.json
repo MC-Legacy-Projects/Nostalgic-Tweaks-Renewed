@@ -1,6 +1,6 @@
 {
   "required": false,
-  "package": "mod.adrenix.nostalgic.fabric.mixin.tweak",
+  "package": "mod.legacyprojects.nostalgic.fabric.mixin.tweak",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "priority": 1001,

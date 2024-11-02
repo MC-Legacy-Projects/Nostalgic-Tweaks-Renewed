@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "mod.adrenix.nostalgic.mixin.required",
+  "package": "mod.legacyprojects.nostalgic.mixin.required",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [

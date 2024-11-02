@@ -1,7 +1,7 @@
 {
   "required": false,
-  "package": "mod.adrenix.nostalgic.neoforge.mixin.embeddium",
-  "plugin": "mod.adrenix.nostalgic.neoforge.mixin.MixinEmbeddiumPlugin",
+  "package": "mod.legacyprojects.nostalgic.neoforge.mixin.embeddium",
+  "plugin": "mod.legacyprojects.nostalgic.neoforge.mixin.MixinEmbeddiumPlugin",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "priority": 1001,
