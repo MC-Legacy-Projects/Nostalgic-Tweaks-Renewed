@@ -7,15 +7,14 @@ license = "${mod_license}"
 modId = "nostalgic_tweaks"
 version = "${version}"
 displayName = "${mod_name}"
-authors = "${mod_author}"
+authors = "${mod_all_author}"
 description = '''
 ${mod_description}
 
-Donations: ${mod_donate}
 Discord: ${mod_discord}
 '''
 credits = "${mod_credits}"
-displayURL = "${mod_curse}"
+displayURL = "${mod_modrinth}"
 logoFile = "nt_neoforge_logo.png"
 displayTest = "NONE"
 
@@ -35,6 +34,9 @@ config = "mixin.nostalgic_tweaks-neoforge.json"
 config = "mixin.nostalgic_tweaks-required.json"
 
 [[mixins]]
+config = "mixin.nostalgic_tweaks-sodium.json"
+
+[[mixins]]
 config = "mixin.nostalgic_tweaks-embeddium.json"
 
 [[dependencies.nostalgic_tweaks]]
@@ -47,7 +49,7 @@ side = "BOTH"
 [[dependencies.nostalgic_tweaks]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21]"
+versionRange = "[1.21,1.21.1]"
 ordering = "NONE"
 side = "BOTH"
 

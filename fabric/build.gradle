@@ -1,5 +1,7 @@
 plugins {
     id "com.github.johnrengelman.shadow" version "7.1.2"
+
+    id "fabric-loom" version "1.8-SNAPSHOT"
 }
 
 architectury {
@@ -45,6 +47,7 @@ processResources {
     filesMatching("fabric.mod.json") {
         expand "version": project.version,
                 "mod_author": rootProject.mod_author,
+                "mod_old_author": rootProject.mod_old_author,
                 "mod_id": rootProject.mod_id,
                 "mod_name": rootProject.mod_name,
                 "mod_source": rootProject.mod_source,

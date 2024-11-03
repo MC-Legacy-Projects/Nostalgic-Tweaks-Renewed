@@ -1,0 +1,5 @@
+@MethodsReturnNonnullByDefault @ParametersAreNonnullByDefault
+package mod.legacyprojects.nostalgic.helper.candy.flatten;
+
+import mod.legacyprojects.nostalgic.annotation.MethodsReturnNonnullByDefault;
+import mod.legacyprojects.nostalgic.annotation.ParametersAreNonnullByDefault;

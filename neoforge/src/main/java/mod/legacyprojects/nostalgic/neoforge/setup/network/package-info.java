@@ -1,0 +1,5 @@
+@MethodsReturnNonnullByDefault @ParametersAreNonnullByDefault
+package mod.legacyprojects.nostalgic.neoforge.setup.network;
+
+import mod.legacyprojects.nostalgic.annotation.MethodsReturnNonnullByDefault;
+import mod.legacyprojects.nostalgic.annotation.ParametersAreNonnullByDefault;

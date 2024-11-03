@@ -1,0 +1,5 @@
+@MethodsReturnNonnullByDefault @ParametersAreNonnullByDefault
+package mod.legacyprojects.nostalgic.mixin.tweak.sound;
+
+import mod.legacyprojects.nostalgic.annotation.MethodsReturnNonnullByDefault;
+import mod.legacyprojects.nostalgic.annotation.ParametersAreNonnullByDefault;

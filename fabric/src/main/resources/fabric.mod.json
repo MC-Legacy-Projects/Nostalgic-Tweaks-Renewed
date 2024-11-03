@@ -5,7 +5,8 @@
   "name": "${mod_name}",
   "description": "${mod_description}",
   "authors": [
-    "${mod_author}"
+    "${mod_author}",
+    "${mod_old_author}"
   ],
   "contributors": [
     {
@@ -16,7 +17,7 @@
     }
   ],
   "contact": {
-    "homepage": "${mod_curse}",
+    "homepage": "${mod_modrinth}",
     "sources": "${mod_source}",
     "issues": "${mod_issues}"
   },
@@ -25,13 +26,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "mod.adrenix.nostalgic.fabric.NostalgicFabric"
+      "mod.legacyprojects.nostalgic.fabric.NostalgicFabric"
     ],
     "modmenu": [
-      "mod.adrenix.nostalgic.fabric.client.ModMenuIntegration"
+      "mod.legacyprojects.nostalgic.fabric.client.ModMenuIntegration"
     ],
     "appleskin": [
-      "mod.adrenix.nostalgic.fabric.event.AppleSkinListener"
+      "mod.legacyprojects.nostalgic.fabric.event.AppleSkinListener"
     ]
   },
   "mixins": [
@@ -47,17 +48,13 @@
     "fabric-api": ">=${fabric_api_version}",
     "architectury": ">=${architectury_version}",
     "minecraft": [
-      "=1.21"
+      ">=1.21 <=1.21.1"
     ]
-  },
-  "breaks": {
-    "sodium": ">=0.6-alpha"
   },
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.discord": "${mod_discord}",
-        "gui.nostalgic_tweaks.support": "${mod_donate}"
+        "modmenu.discord": "${mod_discord}"
       }
     },
     "sodium:options": {

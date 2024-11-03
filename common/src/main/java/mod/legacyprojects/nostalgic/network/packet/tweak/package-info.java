@@ -1,0 +1,5 @@
+@MethodsReturnNonnullByDefault @ParametersAreNonnullByDefault
+package mod.legacyprojects.nostalgic.network.packet.tweak;
+
+import mod.legacyprojects.nostalgic.annotation.MethodsReturnNonnullByDefault;
+import mod.legacyprojects.nostalgic.annotation.ParametersAreNonnullByDefault;

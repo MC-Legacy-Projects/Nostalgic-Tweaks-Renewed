@@ -1,5 +1,5 @@
 {
-  "package": "mod.adrenix.nostalgic.mixin.access",
+  "package": "mod.legacyprojects.nostalgic.mixin.access",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [

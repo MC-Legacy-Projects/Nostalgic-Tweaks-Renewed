@@ -1,0 +1,5 @@
+@MethodsReturnNonnullByDefault @ParametersAreNonnullByDefault
+package mod.legacyprojects.nostalgic.client.gui.screen.home.overlay.supporter;
+
+import mod.legacyprojects.nostalgic.annotation.MethodsReturnNonnullByDefault;
+import mod.legacyprojects.nostalgic.annotation.ParametersAreNonnullByDefault;

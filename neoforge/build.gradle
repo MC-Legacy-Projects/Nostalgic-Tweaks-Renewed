@@ -31,6 +31,9 @@ dependencies {
     // Embeddium Support
     modCompileOnly "maven.modrinth:embeddium:${rootProject.neoforge_embeddium_version}"
 
+    // Sodium Support
+    modCompileOnly "maven.modrinth:sodium:${rootProject.neoforge_sodium_version}"
+
     // Apple Skin Support
     modCompileOnly "maven.modrinth:appleskin:${rootProject.neoforge_appleskin_version}"
 }
@@ -41,6 +44,8 @@ processResources {
     filesMatching("META-INF/neoforge.mods.toml") {
         expand "version": project.version,
                 "mod_author": rootProject.mod_author,
+                "mod_old_author": rootProject.mod_old_author,
+                "mod_all_author": rootProject.mod_all_author,
                 "mod_id": rootProject.mod_id,
                 "mod_name": rootProject.mod_name,
                 "mod_source": rootProject.mod_source,
