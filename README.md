@@ -1,23 +1,22 @@
-# Nostalgic Tweaks - 1.21 Development Branch
+# Nostalgic Tweaks: Renewed - 1.21 Development Branch
 
 ### NeoForge & Fabric
 
-This is the 1.21 development branch for Nostalgic Tweaks. Beta 9 is a complete rewrite for the mod.
+This is the 1.21 development branch for Nostalgic Tweaks: Renewed.
 Port forwarding assistance from 1.21 courtesy
 of [forkiesassds](https://github.com/forkiesassds/Nostalgic-Tweaks/tree/1.21).
 
+Sodium 0.6 support courtesy of [PoeticRainbow](https://github.com/PoeticRainbow/Nostalgic-Tweaks/tree/1.21)
+
 ### Current In-Development Version
 
-v2.0.0
+v1.0.0
 
 ### Related Development Branches
 
-- [Home](https://github.com/Adrenix/Nostalgic-Tweaks)
-- [1.20.1 (Beta 9)](https://github.com/Adrenix/Nostalgic-Tweaks/tree/1.20.1)
-- [1.20.4 (Beta 9)](https://github.com/Adrenix/Nostalgic-Tweaks/tree/1.20.4)
-- [1.20.6 (Beta 9)](https://github.com/Adrenix/Nostalgic-Tweaks/tree/1.20.6)
+- [Home](https://github.com/MC-Legacy-Projects/Nostalgic-Tweaks-Renewed)
 
 ## Nostalgic Tweaks API For Developers
 
-Mod API is not available for 1.21 (beta 9). If you have suggestions for what the mod API should look like, then please
+Mod API is not available for 1.21 (1.0.0). If you have suggestions for what the mod API should look like, then please
 share your ideas!
