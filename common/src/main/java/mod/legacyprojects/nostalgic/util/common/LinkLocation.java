@@ -5,12 +5,11 @@ package mod.legacyprojects.nostalgic.util.common;
  */
 public interface LinkLocation
 {
-    String LICENSE = "https://github.com/Adrenix/Nostalgic-Tweaks/blob/main/LICENSE";
-    String DISCORD = "https://discord.gg/jWdfVh3";
-    String KOFI = "https://ko-fi.com/adrenix";
-    String GOLDEN_DAYS = "https://github.com/PoeticRainbow/golden-days/releases";
-    String DOWNLOAD = "https://modrinth.com/mod/nostalgic-tweaks/versions";
-    String SUPPORTERS = "https://raw.githubusercontent.com/Adrenix/Nostalgic-Tweaks/data/supporters-v2.json";
+    String LICENSE = "https://github.com/MC-Legacy-Projects/Nostalgic-Tweaks-Renewed/tree/main/LICENSE";
+    String DISCORD = "https://discord.gg/BXkUxFDz8c";
+    String GOLDEN_DAYS = "https://modrinth.com/resourcepack/golden-days/versions";
+    String DOWNLOAD = "https://modrinth.com/mod/nt-renewed/versions";
+    String SUPPORTERS = "https://raw.githubusercontent.com/MC-Legacy-Projects/Nostalgic-Tweaks-Renewed/refs/heads/data/supporters-v3.json";
 
     static String getSupporterFace(String uuid)
     {

@@ -27,6 +27,8 @@ public interface GameplayGroup
     Container MECHANICS_PLAYER = Container.group(MECHANICS, "mechanics_player").color(0xB6896C).icon(Items.PLAYER_HEAD).build();
     Container MECHANICS_SWIMMING = Container.group(MECHANICS, "mechanics_swimming").color(0x375DCA).icon(Items.WATER_BUCKET).build();
     Container MECHANICS_ITEMS = Container.group(MECHANICS, "mechanics_items").color(0x8CF4E2).icon(Items.DIAMOND).build();
+    Container MECHANICS_TOOLS = Container.group(MECHANICS, "mechanics_tools").color(0x8CF4E2).icon(Items.STONE_PICKAXE).build();
+    Container MECHANICS_WATER = Container.group(MECHANICS, "mechanics_water").color(0x8CF4E2).icon(Items.WATER_BUCKET).build();
 
     // Experience
 

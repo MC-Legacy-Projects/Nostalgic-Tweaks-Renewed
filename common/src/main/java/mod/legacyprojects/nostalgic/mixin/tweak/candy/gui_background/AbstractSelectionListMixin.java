@@ -36,7 +36,8 @@ public abstract class AbstractSelectionListMixin extends AbstractContainerWidget
         at = @At(
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;enableBlend()V"
-        )
+        ),
+            remap = false
     )
     private void nt_gui_background$onEnableBlendForBackground(GuiGraphics graphics, CallbackInfo callback)
     {
@@ -67,7 +68,8 @@ public abstract class AbstractSelectionListMixin extends AbstractContainerWidget
         at = @At(
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;disableBlend()V"
-        )
+        ),
+            remap = false
     )
     private void nt_gui_background$onDisableBlendForBackground(GuiGraphics graphics, CallbackInfo callback)
     {
@@ -99,7 +101,8 @@ public abstract class AbstractSelectionListMixin extends AbstractContainerWidget
             shift = At.Shift.BEFORE,
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;disableBlend()V"
-        )
+        ),
+            remap = false
     )
     private void nt_gui_background$renderOldListShadows(GuiGraphics graphics, CallbackInfo callback)
     {

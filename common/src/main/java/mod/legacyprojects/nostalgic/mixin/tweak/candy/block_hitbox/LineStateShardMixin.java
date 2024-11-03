@@ -20,7 +20,8 @@ public abstract class LineStateShardMixin
             ordinal = 1,
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;lineWidth(F)V"
-        )
+        ),
+            remap = false
     )
     private static float nt_block_hitbox$modifyLineWidth(float lineWidth)
     {

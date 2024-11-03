@@ -25,7 +25,7 @@ public abstract class DefaultFluidRendererMixin
 {
     /* Shadows */
 
-    @Shadow @Final private QuadLightData quadLightData;
+    @Shadow(remap = false) @Final private QuadLightData quadLightData;
 
     /* Injections */
 

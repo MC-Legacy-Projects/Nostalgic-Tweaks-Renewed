@@ -15,7 +15,7 @@ public abstract class OcclusionCullerMixin
 {
     /* Shadows */
 
-    @Shadow
+    @Shadow(remap = false)
     private static int nearestToZero(int min, int max)
     {
         return 0;

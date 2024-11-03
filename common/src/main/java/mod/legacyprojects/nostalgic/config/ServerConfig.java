@@ -72,6 +72,7 @@ public class ServerConfig implements ConfigMeta
 
         public boolean disableAnimalPanic = GameplayTweak.DISABLE_ANIMAL_PANIC.register("disableAnimalPanic");
         public boolean disableMonsterAvoidSun = GameplayTweak.DISABLE_MONSTER_AVOID_SUN.register("disableMonsterAvoidSun");
+        public boolean disableGolemCreation = GameplayTweak.DISABLE_GOLEM_CREATION.register("disableGolemCreation");
 
         // Monsters
 
@@ -159,11 +160,15 @@ public class ServerConfig implements ConfigMeta
 
         public boolean instantBonemeal = GameplayTweak.INSTANT_BONEMEAL.register("instantBonemeal");
         public boolean tilledGrassSeeds = GameplayTweak.TILLED_GRASS_SEEDS.register("tilledGrassSeeds");
+        public boolean disableBonemealShortGrass = GameplayTweak.DISABLE_BONEMEAL_SHORT_GRASS.register("disableBonemealShortGrass");
+        public boolean disableTallGrassBonemeal = GameplayTweak.DISABLE_TALLGRASS_BONEMEAL.register("disableTallGrassBonemeal");
+        public boolean disableCocoaBeanPlacement = GameplayTweak.DISABLE_COCOA_BEAN_PLACEMENT.register("disableCocoaBeanPlacement");
 
         // Fire Mechanics
 
         public boolean oldFire = GameplayTweak.OLD_FIRE.register("oldFire");
         public boolean infiniteBurn = GameplayTweak.INFINITE_BURN.register("infiniteBurn");
+        public boolean disableSoulFire = GameplayTweak.DISABLE_SOUL_FIRE.register("disableSoulFire");
 
         // Swimming Mechanics
 
@@ -196,6 +201,15 @@ public class ServerConfig implements ConfigMeta
         public ItemMap<Integer> customFoodHealth = GameplayTweak.CUSTOM_FOOD_HEALTH.register("customFoodHealth");
         public ItemMap<Integer> customFoodStacking = GameplayTweak.CUSTOM_FOOD_STACKING.register("customFoodStacking");
         public ItemMap<Integer> customItemStacking = GameplayTweak.CUSTOM_ITEM_STACKING.register("customItemStacking");
+
+        // Tool Mechanics
+
+        public boolean disableAxeStripping = GameplayTweak.DISABLE_AXE_STRIPPING.register("disableAxeStripping");
+        public boolean disableShovelPathing = GameplayTweak.DISABLE_SHOVEL_PATHING.register("disableShovelPathing");
+
+        // Water Mechanics
+
+        public boolean disableWaterBonemeal = GameplayTweak.DISABLE_WATER_BONEMEAL.register("disableWaterBonemeal");
     }
 
     public Gameplay gameplay = new Gameplay();

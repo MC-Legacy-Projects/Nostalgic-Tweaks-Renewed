@@ -168,7 +168,7 @@ public class HomeScreen extends EnhancedScreen<HomeScreen, HomeWidgets>
         float pulseScale = 1.8F - Mth.abs(Mth.sin((float) (Util.getMillis() % 1000L) / 1000.0F * ((float) Math.PI * 2)) * 0.1F);
         float versionScale = pulseScale * 17.0F / (float) (this.font.width(MOD_VERSION));
         float splashScale = pulseScale * 100.0f / (float) (this.font.width(this.splash) + 32);
-        float titleScale = 0.15F;
+        float titleScale = 0.18F;
         float gearScale = 0.07F;
 
         int titleW = Math.round(TITLE_LOCATION.getWidth() * titleScale);
@@ -178,8 +178,8 @@ public class HomeScreen extends EnhancedScreen<HomeScreen, HomeWidgets>
         int gearY = Math.round(GuiUtil.getGuiHeight() - (gearScale * 512.0F));
         int gearX = 0;
 
-        float splashX = titleX + titleW - 20.0F;
-        float splashY = titleY + titleH - 2.0F;
+        float splashX = titleX + titleW - 60.0F;
+        float splashY = titleY + (float) titleH /2 + 10.0F;
         float versionX = gearX + (gearScale * 512.0F) - 3.0F;
         float versionY = gearY + (gearScale * 512.0F) - 9.0F;
         float betaX = gearX + (gearScale * 512.0F) + 11.0F;

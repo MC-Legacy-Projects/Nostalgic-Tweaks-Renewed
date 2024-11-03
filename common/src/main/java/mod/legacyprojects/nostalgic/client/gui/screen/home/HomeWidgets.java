@@ -90,20 +90,10 @@ public class HomeWidgets implements WidgetManager
             .backgroundRenderer(this::renderLeftTransparent)
             .build(this.homeScreen::addWidget);
 
-        ButtonWidget kofi = ButtonWidget.create(Lang.Home.KOFI)
-            .icon(Icons.KOFI)
-            .alignFlushTo(discord)
-            .below(discord, sectionMargin)
-            .useTextWidth()
-            .alignLeft(sectionOffset)
-            .onPress(LinkUtil.onPress(LinkLocation.KOFI))
-            .backgroundRenderer(this::renderLeftTransparent)
-            .build(this.homeScreen::addWidget);
-
         ButtonWidget golden = ButtonWidget.create(Lang.Home.GOLDEN_DAYS)
             .icon(Icons.GOLDEN_DAYS)
-            .alignFlushTo(kofi)
-            .below(kofi, sectionMargin)
+            .alignFlushTo(discord)
+            .below(discord, sectionMargin)
             .useTextWidth()
             .alignLeft(sectionOffset)
             .onPress(LinkUtil.onPress(LinkLocation.GOLDEN_DAYS))
@@ -211,7 +201,7 @@ public class HomeWidgets implements WidgetManager
 
         /* Copyright */
 
-        TextWidget.create("Made by Adrenix\nMMPL - 2.0.3-Modified © 2024")
+        TextWidget.create("Made by Legacy Projects & Adrenix\nLGPL-3.0-only")
             .onPress(LinkUtil.onPress(LinkLocation.LICENSE))
             .color(Color.fromFormatting(ChatFormatting.GRAY))
             .useTextWidth()

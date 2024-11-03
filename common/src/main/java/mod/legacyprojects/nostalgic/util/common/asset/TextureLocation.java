@@ -26,7 +26,7 @@ public class TextureLocation
     public static final TextureLocation CANDY_256 = new TextureLocation(ModAsset.twemoji("candy_256.png"), 256);
     public static final TextureLocation JUGGLER_256 = new TextureLocation(ModAsset.twemoji("juggler_256.png"), 256);
     public static final TextureLocation CONTROLLER_256 = new TextureLocation(ModAsset.twemoji("controller_256.png"), 256);
-    public static final TextureLocation NOSTALGIC_TWEAKS = new TextureLocation("nostalgic_tweaks.png", 1920, 182);
+    public static final TextureLocation NOSTALGIC_TWEAKS = new TextureLocation("nostalgic_tweaks.png", 2048, 333);
 
     /* Missing Textures */
 

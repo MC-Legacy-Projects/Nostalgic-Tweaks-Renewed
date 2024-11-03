@@ -75,11 +75,11 @@ public class HomeSplash extends SimplePreparableReloadListener<List<String>>
         if (CalendarUtil.isToday(3, 13))
             return "Happy Birthday, N.T!";
 
+        if (CalendarUtil.isToday(11, 2))
+            return "Happy Birthday, N.T: Renewed!";
+
         if (CalendarUtil.isToday(4, 1))
             return "Happy birthday, Spoono!";
-
-        if (CalendarUtil.isToday(6, 1))
-            return "Happy birthday, Notch!";
 
         if (CalendarUtil.isToday(10, 31))
             return "Added Herobrine...";

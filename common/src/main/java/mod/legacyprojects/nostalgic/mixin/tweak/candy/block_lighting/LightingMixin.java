@@ -20,7 +20,8 @@ public abstract class LightingMixin
         at = @At(
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;setupGui3DDiffuseLighting(Lorg/joml/Vector3f;Lorg/joml/Vector3f;)V"
-        )
+        ),
+            remap = false
     )
     private static void nt_block_lighting$wrapSetupFor3DItems(Vector3f startDirection, Vector3f endDirection, Operation<Void> operation)
     {

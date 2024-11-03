@@ -33,7 +33,8 @@ public abstract class MinecraftMixin
             ordinal = 0,
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;applyModelViewMatrix()V"
-        )
+        ),
+            remap = false
     )
     private void nt_debug_screen$renderPieBackground(GuiGraphics graphics, ProfileResults results, CallbackInfo callback)
     {

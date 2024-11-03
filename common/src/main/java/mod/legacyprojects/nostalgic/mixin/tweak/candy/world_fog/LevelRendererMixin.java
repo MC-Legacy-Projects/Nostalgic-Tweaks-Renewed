@@ -44,7 +44,8 @@ public abstract class LevelRendererMixin
             shift = At.Shift.AFTER,
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;setShaderColor(FFFF)V"
-        )
+        ),
+            remap = false
     )
     private void nt_world_fog$onSetSunriseColor(Matrix4f frustumMatrix, Matrix4f projectionMatrix, float partialTick, Camera camera, boolean isFoggy, Runnable skyFogSetup, CallbackInfo callback)
     {
@@ -69,7 +70,8 @@ public abstract class LevelRendererMixin
             shift = At.Shift.AFTER,
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;setShaderColor(FFFF)V"
-        )
+        ),
+            remap = false
     )
     private void nt_world_fog$setSunAndMoonTransparency(CallbackInfo callback)
     {

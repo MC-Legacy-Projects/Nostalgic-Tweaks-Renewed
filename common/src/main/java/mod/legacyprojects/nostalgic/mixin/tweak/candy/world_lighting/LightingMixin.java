@@ -28,7 +28,8 @@ public abstract class LightingMixin
         at = @At(
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;setupLevelDiffuseLighting(Lorg/joml/Vector3f;Lorg/joml/Vector3f;)V"
-        )
+        ),
+            remap = false
     )
     private static boolean nt_world_lighting$modifyNetherDiffuseLighting(Vector3f dir0, Vector3f dir1)
     {

@@ -11,4 +11,4 @@ include("common")
 include("fabric")
 include("neoforge")
 
-rootProject.name = "Nostalgic-Tweaks"
+rootProject.name = "Nostalgic-Tweaks-Renewed"

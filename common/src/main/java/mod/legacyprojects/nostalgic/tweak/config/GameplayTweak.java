@@ -2,6 +2,7 @@ package mod.legacyprojects.nostalgic.tweak.config;
 
 import mod.legacyprojects.nostalgic.tweak.TweakAlert;
 import mod.legacyprojects.nostalgic.tweak.container.group.GameplayGroup;
+import mod.legacyprojects.nostalgic.tweak.factory.Tweak;
 import mod.legacyprojects.nostalgic.tweak.factory.TweakFlag;
 import mod.legacyprojects.nostalgic.tweak.factory.TweakItemMap;
 import mod.legacyprojects.nostalgic.tweak.factory.TweakNumber;
@@ -25,6 +26,7 @@ public interface GameplayTweak
     TweakFlag DISABLE_ANIMAL_TEMPTING = TweakFlag.server(false, GameplayGroup.MOB_AI).newForUpdate().build();
     TweakFlag DISABLE_ANIMAL_PANIC = TweakFlag.server(true, GameplayGroup.MOB_AI).newForUpdate().build();
     TweakFlag DISABLE_MONSTER_AVOID_SUN = TweakFlag.server(true, GameplayGroup.MOB_AI).newForUpdate().build();
+    TweakFlag DISABLE_GOLEM_CREATION = TweakFlag.server(false, GameplayGroup.MOB_AI).build();
 
     // Monsters
 
@@ -124,11 +126,15 @@ public interface GameplayTweak
 
     TweakFlag INSTANT_BONEMEAL = TweakFlag.server(true, GameplayGroup.MECHANICS_FARMING).build();
     TweakFlag TILLED_GRASS_SEEDS = TweakFlag.server(true, GameplayGroup.MECHANICS_FARMING).build();
+    TweakFlag DISABLE_BONEMEAL_SHORT_GRASS = TweakFlag.server(false, GameplayGroup.MECHANICS_FARMING).build();
+    TweakFlag DISABLE_TALLGRASS_BONEMEAL = TweakFlag.server(false, GameplayGroup.MECHANICS_FARMING).build();
+    TweakFlag DISABLE_COCOA_BEAN_PLACEMENT = TweakFlag.server(false, GameplayGroup.MECHANICS_FARMING).build();
 
     // Fire Mechanics
 
     TweakFlag OLD_FIRE = TweakFlag.server(false, GameplayGroup.MECHANICS_FIRE).warningTag().build();
     TweakFlag INFINITE_BURN = TweakFlag.server(false, GameplayGroup.MECHANICS_FIRE).build();
+    TweakFlag DISABLE_SOUL_FIRE = TweakFlag.server(false, GameplayGroup.MECHANICS_FIRE).warningTag().build();
 
     // Swimming Mechanics
 
@@ -181,4 +187,13 @@ public interface GameplayTweak
         .slider(Lang.Slider.STACK, 1, 64)
         .alert(TweakAlert.FOOD_STACKING_CONFLICT)
         .build();
+
+    // Tool Mechanics
+
+    TweakFlag DISABLE_AXE_STRIPPING = TweakFlag.server(false, GameplayGroup.MECHANICS_TOOLS).build();
+    TweakFlag DISABLE_SHOVEL_PATHING = TweakFlag.server(false, GameplayGroup.MECHANICS_TOOLS).build();
+
+    // Water Mechanics
+
+    TweakFlag DISABLE_WATER_BONEMEAL = TweakFlag.server(false, GameplayGroup.MECHANICS_WATER).build();
 }

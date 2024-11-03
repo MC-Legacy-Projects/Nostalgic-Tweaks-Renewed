@@ -55,7 +55,8 @@ public abstract class LoadingOverlayMixin
             shift = At.Shift.BEFORE,
             value = "INVOKE",
             target = "Lcom/mojang/blaze3d/systems/RenderSystem;defaultBlendFunc()V"
-        )
+        ),
+            remap = false
     )
     private void nt_loading_overlay$onRender(GuiGraphics graphics, int mouseX, int mouseY, float partialTick, CallbackInfo callback)
     {
