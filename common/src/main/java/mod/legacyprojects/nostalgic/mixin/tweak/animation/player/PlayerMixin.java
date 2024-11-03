@@ -44,25 +44,4 @@ public abstract class PlayerMixin
 
         return isFlying;
     }
-
-    /**
-     * Changes the camera position when the player is crouching on the client.
-     */
-    @ModifyReturnValue(
-        method = "getDefaultDimensions",
-        at = @At("RETURN")
-    )
-    private EntityDimensions nt_player_animation$modifyStandingEyeHeight(EntityDimensions dimensions, Pose pose)
-    {
-        if (NostalgicTweaks.isServer() || Pose.CROUCHING != pose)
-            return dimensions;
-
-        if (AnimationTweak.OLD_CREATIVE_CROUCH.get() && this.abilities.flying)
-            return dimensions.withEyeHeight(1.62F);
-
-        if (AnimationTweak.OLD_SNEAKING.get())
-            return dimensions.withEyeHeight(AnimationConstant.SNEAK_EYE_HEIGHT);
-
-        return dimensions;
-    }
 }

@@ -525,6 +525,9 @@
   "gui.nostalgic_tweaks.enum.corner.bottom_right": "Bottom Right",
   "gui.nostalgic_tweaks.enum.worldFog.alpha_r164": "Alpha - 1.6.4",
   "gui.nostalgic_tweaks.enum.worldFog.r17_r118": "1.7 - 1.18",
+  "gui.nostalgic_tweaks.enum.sunsetSunriseType.java": "Java",
+  "gui.nostalgic_tweaks.enum.sunsetSunriseType.tu1LCE": "Xbox 360 TU1",
+  "gui.nostalgic_tweaks.enum.sunsetSunriseType.tu5LCE": "Xbox 360 TU5 (WIP)",
 
   "gui.nostalgic_tweaks.container": "Root",
 
@@ -1445,6 +1448,8 @@
   "gui.nostalgic_tweaks.config.eyeCandy.customVoidSkyColor.info": "Change the void sky color. This tweak does§c not§r support alpha transparency.",
   "gui.nostalgic_tweaks.config.eyeCandy.oldCloudHeight": "Old Cloud Height",
   "gui.nostalgic_tweaks.config.eyeCandy.oldCloudHeight.info": "Change the cloud height (y-level). The old heights are;§a alpha§r y-§a108§r,§e beta§r y-§e128§r, and§6 modern§r y-§6192§r.",
+  "gui.nostalgic_tweaks.config.eyeCandy.sunsetSunriseType": "Sunset/Sunrise Type",
+  "gui.nostalgic_tweaks.config.eyeCandy.sunsetSunriseType.info": "Change the type of sunset/sunrise.",
   "gui.nostalgic_tweaks.config.eyeCandy.oldStars": "Old Stars",
   "gui.nostalgic_tweaks.config.eyeCandy.oldStars.info": "Change the way stars are rendered in the night sky.",
   "gui.nostalgic_tweaks.config.eyeCandy.oldStars.enum.alpha": "This setting will give the night sky§l chunky§r bright stars.",
@@ -1470,6 +1475,8 @@
   "gui.nostalgic_tweaks.config.eyeCandy.oldBlueVoidOverride.info": "Overrides the dark void color when the player goes beneath the level's defined horizon height.",
   "gui.nostalgic_tweaks.config.eyeCandy.oldDarkVoidHeight": "Old Dark Void Height",
   "gui.nostalgic_tweaks.config.eyeCandy.oldDarkVoidHeight.info": "Changes the dark void's height position based on the player's y-level so the dark void will always start at the horizon. The blue void override tweak must be§c disabled§r for this to work.",
+  "gui.nostalgic_tweaks.config.eyeCandy.xbox360BlueVoidColor": "Xbox 360 Blue Void Color",
+  "gui.nostalgic_tweaks.config.eyeCandy.xbox360BlueVoidColor.info": "Changes the blue void color to be similar to Xbox 360 Minecraft.",
 
   "gui.nostalgic_tweaks.config.eyeCandy.renderVoidFog": "Render Cave & Void Fog",
   "gui.nostalgic_tweaks.config.eyeCandy.renderVoidFog.info": "Control whether cave and void fog is rendered. If this tweak is§c disabled§r, then all cave/void fog tweaks will§6 also§r be§c disabled§r.",
@@ -1702,6 +1709,10 @@
   "gui.nostalgic_tweaks.config.gameplay.leftClickLever.search": "Mouse, Interact",
   "gui.nostalgic_tweaks.config.gameplay.leftClickButton": "Left-Click Button",
   "gui.nostalgic_tweaks.config.gameplay.leftClickButton.info": "Allows the player to interact with buttons by left-clicking. This action is§c rate-limited§r to about§e half of a second§r, wait before left-clicking again.",
+  "gui.nostalgic_tweaks.config.gameplay.disableSneakingUnderSlabs": "Disable Sneaking Under Slabs",
+  "gui.nostalgic_tweaks.config.gameplay.disableSneakingUnderSlabs.info": "Removes the ability to sneak under slabs.",
+  "gui.nostalgic_tweaks.config.gameplay.disableCrawling": "Disable Crawling",
+  "gui.nostalgic_tweaks.config.gameplay.disableCrawling.info": "Removes the ability to crawl under one block surfaces.",
   "gui.nostalgic_tweaks.config.gameplay.leftClickButton.search": "Mouse, Interact",
   "gui.nostalgic_tweaks.config.gameplay.tilledGrassSeeds": "Tilled Grass Seeds",
   "gui.nostalgic_tweaks.config.gameplay.tilledGrassSeeds.info": "Adds a chance for wheat seeds to pop out from tilled grass blocks.",

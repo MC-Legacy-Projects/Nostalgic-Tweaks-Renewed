@@ -604,6 +604,7 @@ public class ClientConfig implements ConfigMeta
         public SkyColor universalSkyColor = CandyTweak.UNIVERSAL_SKY_COLOR.register("universalSkyColor");
         public boolean oldNetherSky = CandyTweak.OLD_NETHER_SKY.register("oldNetherSky");
         public int oldCloudHeight = CandyTweak.OLD_CLOUD_HEIGHT.register("oldCloudHeight");
+        public SunsetSunriseType sunsetSunriseType = CandyTweak.SUNSET_SUNRISE_TYPE.register("sunsetSunriseType");
 
         // Custom Sky
 
@@ -617,6 +618,7 @@ public class ClientConfig implements ConfigMeta
         public boolean oldDarkVoidHeight = CandyTweak.OLD_DARK_VOID_HEIGHT.register("oldDarkVoidHeight");
         public boolean customVoidSky = CandyTweak.CUSTOM_VOID_SKY.register("customVoidSky");
         public String customVoidSkyColor = CandyTweak.CUSTOM_VOID_SKY_COLOR.register("customVoidSkyColor");
+        public boolean xbox360BlueVoidColor = CandyTweak.XBOX_360_BLUE_VOID_COLOR.register("xbox360BlueVoidColor");
 
         // Void Fog
 
@@ -734,6 +736,8 @@ public class ClientConfig implements ConfigMeta
         public boolean leftClickDoor = GameplayTweak.LEFT_CLICK_DOOR.register("leftClickDoor");
         public boolean leftClickLever = GameplayTweak.LEFT_CLICK_LEVER.register("leftClickLever");
         public boolean leftClickButton = GameplayTweak.LEFT_CLICK_BUTTON.register("leftClickButton");
+        public boolean disableSneakingUnderSlabs = GameplayTweak.DISABLE_SNEAKING_UNDER_SLABS.register("disableSneakingUnderSlabs");
+        public boolean disableCrawling = GameplayTweak.DISABLE_CRAWLING.register("disableCrawling");
 
         // Farming Mechanics
 

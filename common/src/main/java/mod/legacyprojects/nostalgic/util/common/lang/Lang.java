@@ -874,6 +874,9 @@ public interface Lang
         Translation CORNER_BOTTOM_RIGHT = from("corner.bottom_right");
         Translation FOG_ALPHA_R164 = from("worldFog.alpha_r164");
         Translation FOG_R17_R118 = from("worldFog.r17_r118");
+        Translation SUNSETSUNRISE_JAVA = from("sunsetSunriseType.java");
+        Translation SUNSETSUNRISE_TU1LCE = from("sunsetSunriseType.tu1LCE");
+        Translation SUNSETSUNRISE_TU5LCE = from("sunsetSunriseType.tu5LCE");
 
         private static Translation from(String name)
         {

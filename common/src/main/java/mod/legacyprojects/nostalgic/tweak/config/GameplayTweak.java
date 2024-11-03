@@ -121,6 +121,8 @@ public interface GameplayTweak
     TweakFlag LEFT_CLICK_DOOR = TweakFlag.server(false, GameplayGroup.MECHANICS_PLAYER).build();
     TweakFlag LEFT_CLICK_LEVER = TweakFlag.server(false, GameplayGroup.MECHANICS_PLAYER).build();
     TweakFlag LEFT_CLICK_BUTTON = TweakFlag.server(false, GameplayGroup.MECHANICS_PLAYER).build();
+    TweakFlag DISABLE_SNEAKING_UNDER_SLABS = TweakFlag.server(false, GameplayGroup.MECHANICS_PLAYER).build();
+    TweakFlag DISABLE_CRAWLING = TweakFlag.server(false, GameplayGroup.MECHANICS_PLAYER).build();
 
     // Farming Mechanics
 

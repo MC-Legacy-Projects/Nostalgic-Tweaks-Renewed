@@ -445,6 +445,7 @@ public interface CandyTweak
     TweakEnum<SkyColor> UNIVERSAL_SKY_COLOR = TweakEnum.client(SkyColor.DISABLED, CandyGroup.WORLD_SKY).alert(TweakAlert.UNIVERSAL_SKY).build();
     TweakFlag OLD_DYNAMIC_SKY_COLOR = TweakFlag.client(true, CandyGroup.WORLD_SKY).alert(TweakAlert.DYNAMIC_SKY).build();
     TweakFlag OLD_NETHER_SKY = TweakFlag.client(true, CandyGroup.WORLD_SKY).build();
+    TweakEnum<SunsetSunriseType> SUNSET_SUNRISE_TYPE = TweakEnum.client(SunsetSunriseType.JAVA, CandyGroup.WORLD_SKY).build();
 
     // Custom Sky
 
@@ -458,6 +459,7 @@ public interface CandyTweak
     TweakFlag OLD_DARK_VOID_HEIGHT = TweakFlag.client(false, CandyGroup.WORLD_VOID_SKY).alert(TweakAlert.VOID_CONFLICT).build();
     TweakFlag CUSTOM_VOID_SKY = TweakFlag.client(false, CandyGroup.WORLD_VOID_SKY).build();
     TweakColor CUSTOM_VOID_SKY_COLOR = TweakColor.client("#0000FF", CandyGroup.WORLD_VOID_SKY).build();
+    TweakFlag XBOX_360_BLUE_VOID_COLOR = TweakFlag.client(false, CandyGroup.WORLD_VOID_SKY).build();
 
     // Void Fog
 

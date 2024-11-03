@@ -155,6 +155,8 @@ public class ServerConfig implements ConfigMeta
         public boolean leftClickDoor = GameplayTweak.LEFT_CLICK_DOOR.register("leftClickDoor");
         public boolean leftClickLever = GameplayTweak.LEFT_CLICK_LEVER.register("leftClickLever");
         public boolean leftClickButton = GameplayTweak.LEFT_CLICK_BUTTON.register("leftClickButton");
+        public boolean disableSneakingUnderSlabs = GameplayTweak.DISABLE_SNEAKING_UNDER_SLABS.register("disableSneakingUnderSlabs");
+        public boolean disableCrawling = GameplayTweak.DISABLE_CRAWLING.register("disableCrawling");
 
         // Farming Mechanics
 

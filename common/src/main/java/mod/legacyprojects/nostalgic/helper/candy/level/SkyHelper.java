@@ -71,7 +71,8 @@ public abstract class SkyHelper
         float height = switch (CandyTweak.OLD_BLUE_VOID.get())
         {
             case ALPHA -> -32.0F;
-            case BETA, MODERN -> -48.0F;
+            case BETA -> -8.0F;
+            case MODERN -> -48.0F;
         };
 
         final MeshData mesh = skyDiscBuilder.apply(tesselator, height);
@@ -144,7 +145,9 @@ public abstract class SkyHelper
     {
         boolean isCustom = CandyTweak.CUSTOM_VOID_SKY.get();
 
-        final float[] ENV_RGB = isCustom ? ClientLevelHelper.getStandardEnvironmentInfluence() : getBlueEnvironmentInfluence();
+        boolean isXbox360 = CandyTweak.XBOX_360_BLUE_VOID_COLOR.get();
+
+        final float[] ENV_RGB = isCustom || isXbox360 ? ClientLevelHelper.getStandardEnvironmentInfluence() : getBlueEnvironmentInfluence();
 
         float r = ENV_RGB[0];
         float g = ENV_RGB[1];
@@ -154,10 +157,11 @@ public abstract class SkyHelper
         final float OLD_GREEN = 0.17F;
         final float OLD_BLUE = 0.7F;
         final float[] CUSTOM_RGB = HexUtil.parseFloatRGBA(CandyTweak.CUSTOM_VOID_SKY_COLOR.get());
+        final float[] XBOX360_RGB = HexUtil.parseFloatRGBA("#666FD4");
 
-        r = Mth.clamp(r, 0.08F, 1.0F) * (isCustom ? CUSTOM_RGB[0] : OLD_RED);
-        g = Mth.clamp(g, 0.08F, 1.0F) * (isCustom ? CUSTOM_RGB[1] : OLD_GREEN);
-        b = Mth.clamp(b, 0.08F, 1.0F) * (isCustom ? CUSTOM_RGB[2] : OLD_BLUE);
+        r = Mth.clamp(r, 0.08F, 1.0F) * (isCustom ? CUSTOM_RGB[0] : isXbox360 ? XBOX360_RGB[0] : OLD_RED);
+        g = Mth.clamp(g, 0.08F, 1.0F) * (isCustom ? CUSTOM_RGB[1] : isXbox360 ? XBOX360_RGB[1] : OLD_GREEN);
+        b = Mth.clamp(b, 0.08F, 1.0F) * (isCustom ? CUSTOM_RGB[2] : isXbox360 ? XBOX360_RGB[2] : OLD_BLUE);
 
         VoidFogRenderer.setVoidRGB(r, g, b);
 
